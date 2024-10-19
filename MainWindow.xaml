@@ -1,0 +1,13 @@
+﻿<Window x:Class="Commander.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Commander"
+        mc:Ignorable="d"
+        Title="Commander" Height="450" Width="800" Background="#FF2B2B2B">
+    <Grid>
+        <Button x:Name="TurnDisplayOffButton" Content="Turn off display" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" Height="26" Width="136" Click="TurnDisplayOff" Foreground="White" Background="#02770707"/>
+
+    </Grid>
+</Window>
